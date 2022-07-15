@@ -1,4 +1,5 @@
 ﻿using System;
+using Subtraction;
 
 namespace JenkinsApp
 {
@@ -15,6 +16,10 @@ namespace JenkinsApp
             int mult = math.mult(10, 20);
             Console.WriteLine($"The sum is: {sum}");
             Console.WriteLine($"The product is: {mult}");
+            Console.ReadLine();
+            Subt s = new Subt();
+            int subtr = s.Subtract(20, 10);
+            Console.WriteLine($"The difference is: {subtr}");
             Console.ReadLine();
         }
     }
